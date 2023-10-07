@@ -3,9 +3,10 @@ export default function Header() {
     <nav className="navbar navbar-espand-ig">
       <ul className="navbar-nav">
         <li className="navbar-item">
-          <a href="#" className="nav-link">
-            Inicial
-          </a>
+          <Link to="/" className="nav-link">Inicial</Link>
+        </li>
+        <li>
+          <Link to="/sobre" className="nav-link">Sobre</Link>
         </li>
       </ul>
     </nav>
